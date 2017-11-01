@@ -320,12 +320,13 @@ body {
 
 .wrapper {
   position: relative;
+  margin-bottom: 7px;
   width: 100%;
 }
 
 .overlay {
   position: absolute;
-  bottom: 10px;
+  bottom: 4px;
   left: 0;
   right: 0;
   background-color: lightgrey;
@@ -338,7 +339,7 @@ body {
 }
 
 .wrapper:hover .overlay {
-  height: 95%;
+  height: 97.5%;
 }
 
 .text {
