@@ -317,3 +317,39 @@ body {
     margin: auto;
     padding-bottom:5px;
 }
+
+.wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  right: 0;
+  background-color: lightgrey;
+  opacity: 0.7;
+  overflow: hidden;
+  width: 90%;
+  margin: auto;
+  height: 0;
+  transition: .9s ease;
+}
+
+.wrapper:hover .overlay {
+  height: 95%;
+}
+
+.text {
+  white-space: nowrap;
+  color: black;
+  font-size: 35px;
+  font-weight:bold;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
